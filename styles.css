@@ -244,3 +244,14 @@ form {
   #contact button:hover {
     background-color: var(--marina);
   }
+  footer{
+  background-color:var(--ld-color-ft);
+  max-height: 80px;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  z-index: 1000;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
