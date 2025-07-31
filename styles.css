@@ -340,7 +340,12 @@ footer h2{
         margin: 0 auto;
         display:flex;
         justify-content: flex-end;
+        
     }
+    .wrapper {
+        padding: 5rem;
+    }
+
 
 }
 
