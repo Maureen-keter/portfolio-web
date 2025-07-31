@@ -177,3 +177,22 @@ nav a:hover{
 .about-text h3 {
   font-size: calc(var(--base-font-size) * 0.85);
 }
+
+.about-text-box ul {
+  font-size: calc(var(--base-font-size) * 0.5);
+  font-weight:bold;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-text-box li {
+  line-height: 2;
+  font-size: calc(var(--base-font-size)*0.8);
+  font-weight: bold;
+  color: var(--magenta);
+}
+
+.h2-about {
+  margin: 2rem 0;
+}
