@@ -365,6 +365,10 @@ footer h2{
 .about-text .icons {
   grid-column: 1/4;
 }
+.about-text {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 
 
 
