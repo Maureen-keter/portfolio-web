@@ -124,7 +124,56 @@ nav a:hover{
     opacity: 0;
     position: absolute;
   }
- 
+  .radio-switch label {
+    display: inline-block;
+    line-height: 2;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 2;
+  }
+  .radio-switch input {
+    opacity: 0;
+    position: absolute;
+  }
+  .radio-switch label:first-of-type {
+    padding-right: 5em;
+  }
+  .radio-switch label:last-child{
+    margin-left: -4.35em;
+    padding-left: 5em;
+  }
+  .radio-switch:focus-within label:first-of-type::after {
+    box-shadow: 0 0 0 2px var(--white), 0 0 0 4px var(--marina);
+  }
+  .radio-switch label:first-of-type::before,
+  .radio-switch label:first-of-type::after {
+    border: 1px solid #3c3d44;
+    content: "";
+    height: 2em;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    vertical-align: middle;
+  }
+  .radio-switch label:first-of-type:before {
+    background: whitesmoke;
+    border: 1px solid var(--onyx);
+    border-radius: 100%;
+    position: absolute;
+    right: -0.075em;
+    transform: translateX(0em);
+    transition: transform 0.2s ease-in-out;
+    width: 2em;
+    z-index: 2;
+  }
+    .radio-switch label:first-of-type:after {
+    background: #777;
+    border-radius: 1em;
+    margin: 0 1em;
+    transition: background 0.2s ease-in-out;
+    width: 4em;
+  }
+  
 }
 
 #intro{
