@@ -67,8 +67,11 @@ a:hover{
   color:var(--hotmag);
     text-decoration: none;
 }
-#intro h2{
-    font-size: var(--base-font-size);
-    text-transform: uppercase;
-    letter-spacing: 0.25em;
+
+#intro{
+    display:grid;
+    grid-template-columns:1fr;
+    gap: 2rem;
+    text-align: center;
 }
+
