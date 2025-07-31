@@ -22,3 +22,7 @@
   --mono:"Oxygen mono", monospace;
   --sans:Oxygen, sans-serif;
 }
+
+html{
+    box-sizing: border-box;
+}
