@@ -1,0 +1,24 @@
+:root{
+  --white: #f9faff;
+  --platinum: #e3e4e8;
+  --windsurfing: #32779b;
+  --marina: #5a91c7;
+  --onyx: #3c3d44;
+  --black:#171321;
+  --dkblue:#0d314b;
+  --hotmag:#ff17e4;
+  --magenta:#e310cb;
+  --ld-bkgd:light-dark(var(--platinum), var(--black));
+  --ld-text:light-dark(var(--onyx), var(--white));
+  --ld-projects:light-dark(var(--windsurfing), var(--dkblue));
+  --ld-projects-color:light-dark(var(--black),var(--white));
+  --ld-blue:light-dark(var(--marina), var(--windsurfing));
+  --ld-borders:light-dark(var(--black),var(--magenta));
+  --ld-color-nav:light-dark(var(--windsurfing),var(--white));
+  --ld-color-ft:light-dark(#fbfcff,#211b2f);
+  --ld-color-form:light-dark(var(--white), var(--dkblue));
+  --corners:24px 0;
+  --base-font-size:1rem;
+  --mono:"Oxygen mono", monospace;
+  --sans:Oxygen, sans-serif;
+}
