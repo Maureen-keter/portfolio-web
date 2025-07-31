@@ -368,7 +368,23 @@ footer h2{
 .about-text {
   grid-template-columns: repeat(3, 1fr);
 }
-
+#contact {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1rem;
+  text-align: left;
+}
+.contact-text {
+  grid-column: 1 / 5;
+}
+#contact form {
+  grid-column: 6 / 11;
+  grid-row: 1 / 2;
+}
+#contact .icons {
+  grid-column: 6 / 11;
+  justify-content: center;
+}
 
 
 
