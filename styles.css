@@ -67,3 +67,8 @@ a:hover{
   color:var(--hotmag);
     text-decoration: none;
 }
+#intro h2{
+    font-size: var(--base-font-size);
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
