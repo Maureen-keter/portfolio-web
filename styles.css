@@ -199,3 +199,32 @@ nav a:hover{
 
 /* contact section */
 
+
+#contact{
+  text-align: center;
+}
+form {
+    grid-column:6/11;
+    background-color:var(--ld-color-form);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+  
+  #contact input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: var(--ld-text);
+    font-size: calc(var(--base-font-size)*0.8);
+  }
+  
+  #contact input:focus,textarea:focus {
+    outline: none;
+    border-color: var(--base-font-size);
+    box-shadow: 0 0 5px rgba(37, 52, 88, 0.5);
+  }
