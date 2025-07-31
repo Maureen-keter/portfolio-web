@@ -340,11 +340,26 @@ footer h2{
         margin: 0 auto;
         display:flex;
         justify-content: flex-end;
-        
+
     }
     .wrapper {
         padding: 5rem;
     }
+    .intro {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+}
+.intro img {
+  max-height: 400px;
+  margin: 0 0 0 auto;
+  object-fit: none;
+  object-position: none;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
 
 
 }
