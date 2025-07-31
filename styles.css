@@ -40,3 +40,10 @@ body{
     margin:0 auto;
     padding: 1rem;
 }
+img{
+    max-width: 100%;
+    border-radius: var(--corners);
+    border-right:1px solid var(--magenta);
+    border-top: 1px solid var(--magenta);
+    padding:1rem;
+}
