@@ -244,6 +244,31 @@ form {
   #contact button:hover {
     background-color: var(--marina);
   }
+
+.icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+ul svg {
+  width: 36px;
+  height: 36px;
+}
+
+.social {
+  fill: var(--marina);
+}
+
+.social:hover {
+  fill: var(--windsurfing);
+}
+
   footer{
   background-color:var(--ld-color-ft);
   max-height: 80px;
