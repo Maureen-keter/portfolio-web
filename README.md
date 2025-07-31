@@ -57,7 +57,7 @@ You can simply open `index.html` in your browser or deploy it using [Netlify](ht
 
 ## 🧪 Live Preview
 
-[🔗 View Portfolio Live](https://your-username.github.io/your-portfolio)
+[🔗 View Portfolio Live](https://portfolio-web-git-main-maureen-keters-projects.vercel.app/)
 
 ---
 
