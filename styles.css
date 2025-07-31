@@ -159,3 +159,21 @@ nav a:hover{
 #projects img{
     margin: 2rem 0 4rem 0;
 }
+
+/* about section */
+
+#about{
+  text-align: center;
+}
+
+.about-text {
+  color: var(--ld-text);
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.about-text h3 {
+  font-size: calc(var(--base-font-size) * 0.85);
+}
