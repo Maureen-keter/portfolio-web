@@ -29,3 +29,9 @@ html{
 *,*::before,*::after{
     box-sizing: inherit;
 }
+body{
+    font-size: var(--base-font-size);
+    font-family:var(--sans);
+    background-color: var(--ld-bkgd);
+    color: var(--ld-text);
+}
