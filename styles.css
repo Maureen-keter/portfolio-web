@@ -47,3 +47,11 @@ img{
     border-top: 1px solid var(--magenta);
     padding:1rem;
 }
+h1,h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: calc(var(--base-font-size) *2.9);
+}
