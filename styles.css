@@ -110,6 +110,23 @@ nav a:hover{
     background-color: var(--hotmag);
 }
 
+@layer switch {
+  .radio-switch {
+    border: none;
+    padding: 0;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.1rem;
+  }
+  .radio-switch legend {
+    font-size: 2px;
+    opacity: 0;
+    position: absolute;
+  }
+ 
+}
+
 #intro{
     display:grid;
     grid-template-columns:1fr;
