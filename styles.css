@@ -103,3 +103,16 @@ nav a:hover{
     color: var(--magenta);
 }
 
+.button{
+    background-color: var(--magenta);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px 0;
+    font-family: var(--mono);
+
+}
+
+.button:hover{
+    color: white;
+    background-color: var(--hotmag);
+}
