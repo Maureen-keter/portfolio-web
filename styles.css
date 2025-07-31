@@ -228,3 +228,19 @@ form {
     border-color: var(--base-font-size);
     box-shadow: 0 0 5px rgba(37, 52, 88, 0.5);
   }
+
+#contact button {
+    width:30%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: var(--windsurfing);
+    color: var(--white);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background-color: var(--marina);
+  }
