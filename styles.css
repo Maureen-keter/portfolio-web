@@ -75,3 +75,31 @@ a:hover{
     text-align: center;
 }
 
+nav {
+    font-size: 90%;
+    font-family: var(--mono);
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+nav a{
+    color:var(--ld-color-nav);
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover{
+    color: var(--magenta);
+}
+
