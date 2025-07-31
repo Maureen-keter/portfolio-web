@@ -55,3 +55,15 @@ h1,h2, h3{
 h1{
     font-size: calc(var(--base-font-size) *2.9);
 }
+p{
+    line-height: 1.5;
+}
+
+a{
+  color:var(--magenta);
+}
+
+a:hover{
+  color:var(--hotmag);
+    text-decoration: none;
+}
