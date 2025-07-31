@@ -137,3 +137,25 @@ nav a:hover{
     font-size: var(--base-font-size);
     font-family: var(--mono);
 }
+
+.black-box{
+    background-color: var(--ld-projects);
+    color: var(--ld-projects-color);
+    border-radius:10px;
+    line-height: 1.5;
+}
+
+#projects ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: var(--base-font-size);
+}
+
+#projects img{
+    margin: 2rem 0 4rem 0;
+}
