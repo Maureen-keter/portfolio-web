@@ -359,6 +359,13 @@ footer h2{
   width: auto;
   overflow: auto;
 }
+.icons {
+  justify-content: flex-start;
+}
+.about-text .icons {
+  grid-column: 1/4;
+}
+
 
 
 
