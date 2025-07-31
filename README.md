@@ -14,7 +14,7 @@ Welcome to my personal portfolio website! This project showcases who I am as a d
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * HTML
 * CSS3 (including `@layer` and `:has()` selectors)
@@ -40,7 +40,7 @@ Welcome to my personal portfolio website! This project showcases who I am as a d
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Clone this repository**
 
@@ -55,13 +55,13 @@ You can simply open `index.html` in your browser or deploy it using [Netlify](ht
 
 ---
 
-## 🧪 Live Preview
+## Live Preview
 
 [🔗 View Portfolio Live](https://portfolio-web-git-main-maureen-keters-projects.vercel.app/)
 
 ---
 
-## 📌 Customization Tips
+## Customization Tips
 
 * Update text content in `index.html` with your own information.
 * Modify colors or typography in `style.css` to suit your branding.
