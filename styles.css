@@ -68,12 +68,7 @@ a:hover{
     text-decoration: none;
 }
 
-#intro{
-    display:grid;
-    grid-template-columns:1fr;
-    gap: 2rem;
-    text-align: center;
-}
+/* nav section */
 
 nav {
     font-size: 90%;
@@ -91,8 +86,6 @@ nav ul{
     gap: 2rem;
 }
 
-
-
 nav a{
     color:var(--ld-color-nav);
     text-decoration: none;
@@ -109,13 +102,31 @@ nav a:hover{
     padding: 0.5rem;
     border-radius: 5px 0;
     font-family: var(--mono);
-
+    
 }
 
 .button:hover{
     color: white;
     background-color: var(--hotmag);
 }
+
+#intro{
+    display:grid;
+    grid-template-columns:1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+#intro img{
+    object-fit: cover;
+    object-position:top ;
+    height: 200px;
+    width:400px;
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+
 
 /* projects section  */
 
@@ -245,6 +256,7 @@ form {
     background-color: var(--marina);
   }
 
+/* icons styles */
 .icons {
   list-style-type: none;
   margin: 0;
@@ -345,46 +357,46 @@ footer h2{
     .wrapper {
         padding: 5rem;
     }
-    .intro {
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  text-align: left;
-}
-.intro img {
-  max-height: 400px;
-  margin: 0 0 0 auto;
-  object-fit: none;
-  object-position: none;
-  height: auto;
-  width: auto;
-  overflow: auto;
-}
-.icons {
-  justify-content: flex-start;
-}
-.about-text .icons {
-  grid-column: 1/4;
-}
-.about-text {
-  grid-template-columns: repeat(3, 1fr);
-}
-#contact {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  gap: 1rem;
-  text-align: left;
-}
-.contact-text {
-  grid-column: 1 / 5;
-}
-#contact form {
-  grid-column: 6 / 11;
-  grid-row: 1 / 2;
-}
-#contact .icons {
-  grid-column: 6 / 11;
-  justify-content: center;
-}
+    #intro {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: left;
+        }
+    #intro img {
+        max-height: 400px;
+        margin: 0 0 0 auto;
+        object-fit: none;
+        object-position: none;
+        height: auto;
+        width: auto;
+        overflow: auto;
+        }
+    .icons {
+        justify-content: flex-start;
+        }
+    .about-text .icons {
+        grid-column: 1/4;
+        }
+    .about-text {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #contact {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 1rem;
+        text-align: left;        
+        }
+    .contact-text {
+        grid-column: 1 / 5;
+        }
+    #contact form {
+        grid-column: 6 / 11;
+        grid-row: 1 / 2;
+        }
+    #contact .icons {
+        grid-column: 6 / 11;
+        justify-content: center;
+        }
 
 
 
