@@ -26,20 +26,32 @@
 html{
     box-sizing: border-box;
 }
+
+html:has(#mode-switcher #light:checked) {
+  color-scheme: light;
+}
+
+html:has(#mode-switcher #dark:checked) {
+  color-scheme: dark;
+}
+
 *,*::before,*::after{
     box-sizing: inherit;
 }
+
 body{
     font-size: var(--base-font-size);
     font-family:var(--sans);
     background-color: var(--ld-bkgd);
     color: var(--ld-text);
 }
+
 .wrapper{
     max-width:1200px;
     margin:0 auto;
     padding: 1rem;
 }
+
 img{
     max-width: 100%;
     border-radius: var(--corners);
@@ -47,6 +59,7 @@ img{
     border-top: 1px solid var(--magenta);
     padding:1rem;
 }
+
 h1,h2, h3{
     margin: 0;
     padding: 0;
@@ -55,6 +68,7 @@ h1,h2, h3{
 h1{
     font-size: calc(var(--base-font-size) *2.9);
 }
+
 p{
     line-height: 1.5;
 }
@@ -110,6 +124,7 @@ nav a:hover{
     background-color: var(--hotmag);
 }
 
+/* toogle button section */
 @layer switch {
   .radio-switch {
     border: none;
