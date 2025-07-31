@@ -332,10 +332,14 @@ footer h2{
        margin-left: -3px; 
     }
     nav{
-      position: fixed;
-      top: 1rem; 
-      width: 100%;
-      z-index: 1000;
+        position: fixed;
+        top: 1rem; 
+        width: 100%;
+        z-index: 1000;
+        max-width: 1200px;
+        margin: 0 auto;
+        display:flex;
+        justify-content: flex-end;
     }
 
 }
