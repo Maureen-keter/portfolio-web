@@ -463,8 +463,8 @@ footer h2{
     .icons {
         justify-content: flex-start;
         }
-    .about-text .icons {
-        grid-column: 1/4;
+    #about{
+        text-align: left;
         }
     .about-text {
         grid-template-columns: repeat(3, 1fr);
