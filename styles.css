@@ -423,6 +423,19 @@ footer h2{
     #projects .reverse ul{
         justify-content: flex-start;
     }
+    nav{
+        position: fixed;
+        top: 0; 
+        width: 100%;
+        z-index: 1000;
+        height: 60px;
+        left: 0;        
+        background-color: var(--ld-color-ft);
+        margin:0 auto;
+        display:flex;
+        justify-content: flex-end;
+
+    }
 }
 
 @media (min-width:850px){
@@ -432,17 +445,7 @@ footer h2{
     h1{
        margin-left: -3px; 
     }
-    nav{
-        position: fixed;
-        top: 1rem; 
-        width: 100%;
-        z-index: 1000;
-        max-width: 1200px;
-        margin: 0 auto;
-        display:flex;
-        justify-content: flex-end;
-
-    }
+    
     .wrapper {
         padding: 5rem;
     }
