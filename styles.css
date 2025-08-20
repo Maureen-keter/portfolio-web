@@ -263,7 +263,7 @@ nav a:hover{
 /* about section */
 
 #about{
-  text-align: left;
+  text-align: center;
 }
 
 .about-text {
@@ -466,6 +466,9 @@ footer h2{
     .icons {
         justify-content: flex-start;
         }
+    #about{
+      text-align: left;
+    }
     .about-text .icons {
         grid-column: 1/4;
         }
